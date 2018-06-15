@@ -1,0 +1,12 @@
+package com.cg.example;
+
+
+
+	@RunWith(Cucumber.class)
+	@CucumberOptions(
+			format={"pretty","html:target/cucumber"},
+			features="classpath:test.feature",
+			glue="classpath:comc.g"
+			)
+	public class RunCucumberTests {
+}

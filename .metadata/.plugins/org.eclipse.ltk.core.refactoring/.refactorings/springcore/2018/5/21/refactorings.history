@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;projectbeans.xml&apos; to &apos;ProjectInjection/src/test/resources&apos;&#x0D;&#x0A;- Original project: &apos;springcore&apos;&#x0D;&#x0A;- Destination element: &apos;ProjectInjection/src/test/resources&apos;&#x0D;&#x0A;- Original element: &apos;projectbeans.xml&apos;" description="Copy file" destination="=ProjectInjection/src\/test\/resources" element1="src/main/resource/projectbeans.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1527233282816" units="0" version="1.0"/>
+</session>

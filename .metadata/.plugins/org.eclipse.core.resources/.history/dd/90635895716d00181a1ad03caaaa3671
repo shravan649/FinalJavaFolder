@@ -1,0 +1,49 @@
+package com.cg.WebDriver2;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.cg.project.beans.LoginPage;
+
+public class LoginPageTest {
+	WebDriver driver=new ChromeDriver();
+	LoginPage loginPage;
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.setProperty("webdriver.chrome.driver", "D:\\javaflp crosskiling(9-4-18)\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		driver.get("https://github.com/");
+		LoginPage=new LoginPage();
+		PageFactory.initElements(driver, loginPage);
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		driver=null;
+		loginPage=null;
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		driver.close();
+	}
+
+	@Test
+	public void test() {
+
+	}
+
+}

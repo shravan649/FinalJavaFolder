@@ -1,0 +1,14 @@
+package com.cg.WebDriver1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WebDriverDemo {
+
+	public static void main(String[] args) {
+	System.setProperty("webdriver.chrome.driver", "D:\\javaflp crosskiling(9-4-18)");
+ WebDriver driver=new ChromeDriver();
+ driver.get("http://www.google.com");
+	}
+
+}

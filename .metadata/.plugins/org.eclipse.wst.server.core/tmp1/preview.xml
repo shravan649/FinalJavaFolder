@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="9999">
+  <module context="HFJ-1" name="HFJ-1" path="D:/javaflp crosskiling(9-4-18)/core java/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/HFJ-1" type="static"/>
+</server>

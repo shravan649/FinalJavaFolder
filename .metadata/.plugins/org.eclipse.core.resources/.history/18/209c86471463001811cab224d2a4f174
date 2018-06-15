@@ -1,0 +1,10 @@
+package com.cg.project.main;
+import org.springframework.context.ApplicationContext;
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

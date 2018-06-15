@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.cg.banking.daoservices&apos; to &apos;CGBankingWithHibernate/src&apos;&#x0D;&#x0A;- Original project: &apos;CGBankingWithSpringJPA&apos;&#x0D;&#x0A;- Destination element: &apos;CGBankingWithHibernate/src&apos;&#x0D;&#x0A;- Original element: &apos;CGBankingWithSpringJPA/src/main/java/com.cg.banking.daoservices&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=CGBankingWithHibernate/src" element1="/src\/main\/java&lt;com.cg.banking.daoservices" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1527920526908" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cg.WebDriver2.RegistrationPage&apos; to &apos;RegistrationPageTest&apos;&#x0D;&#x0A;- Original project: &apos;WebDriver2&apos;&#x0D;&#x0A;- Original element: &apos;com.cg.WebDriver2.RegistrationPage&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cg.WebDriver2.RegistrationPageTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RegistrationPage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;com.cg.WebDriver2{RegistrationPage.java[RegistrationPage" matchStrategy="1" name="RegistrationPageTest" qualified="false" references="true" similarDeclarations="false" stamp="1528873664219" textual="false" version="1.0"/>
+</session>
